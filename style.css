@@ -182,6 +182,15 @@ b {
   height: 10vh;
 }
 
+#overlapText {
+  z-index: 100;
+  font-size: 5rem;
+  font-family: "Press Start 2P", cursive;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
 .map {
   width: 45vw;
   filter: invert(100%) brightness(200%) saturate(0.5);
@@ -263,5 +272,11 @@ b {
   .performer-img {
     width: 15svh;
     height: 15svh;
+  }
+
+  #overlapText {
+    font-size: 3rem;
+    bottom: 20vh;
+    left: 0;
   }
 }

@@ -57,6 +57,7 @@ const displayText = () => {
   );
   const thirdHeadlineText = interpolatedText(t, thirdHeadlineLists, headIndex);
   const thirdParagraphText = interpolatedText(t, thirdContentsLists, headIndex);
+  const overlapText = interpolatedText(t, overlapContentsLists, headIndex);
 
   const headline = document.getElementById("headline");
   const paragraph = document.getElementById("paragraph");
@@ -73,6 +74,9 @@ const displayText = () => {
   secondParagraph.innerHTML = secondParagraphText;
   thirdHeadline.innerHTML = thirdHeadlineText;
   thirdParagraph.innerHTML = thirdParagraphText;
+  const overlapContainer = document.getElementById("overlapText");
+  overlapContainer.innerHTML =
+    overlapText + "<br />" + overlapText + "<br />" + overlapText;
 
   document.getSelection().removeAllRanges();
 
