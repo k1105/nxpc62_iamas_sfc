@@ -14,7 +14,7 @@ html {
 }
 
 header {
-  z-index: 999;
+  z-index: 990;
   position: fixed;
   right: 30px;
   top: 30px;
@@ -89,7 +89,6 @@ b {
 
 .floating-item {
   width: 32vw;
-  /* その上で、下記を指定する。word-breakと併せて指定しましょう */
   overflow-wrap: break-word;
 }
 
@@ -177,6 +176,10 @@ b {
   content: "";
   display: block;
   height: 18.75svh;
+}
+
+.bottom-spacer {
+  height: 10vh;
 }
 
 .map {

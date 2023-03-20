@@ -90,3 +90,7 @@ const displayText = () => {
 document.fonts.ready.then(function () {
   window.requestAnimationFrame(displayText);
 });
+
+function backToTop() {
+  window.scroll({ top: 0, behavior: "smooth" });
+}
