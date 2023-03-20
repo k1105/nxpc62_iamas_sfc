@@ -31,7 +31,7 @@ const interpolatedText = (t, list, headIndex) => {
   return str;
 };
 
-const hoge = () => {
+const displayText = () => {
   let t = 0;
   if (Math.floor(window.pageYOffset / heightUnit) % 2 == 0) {
     //static
@@ -84,7 +84,9 @@ const hoge = () => {
   //document.getSelection().addRange(range);
   document.getSelection().addRange(range);
 
-  window.requestAnimationFrame(hoge);
+  window.requestAnimationFrame(displayText);
 };
 
-window.requestAnimationFrame(hoge);
+document.fonts.ready.then(function () {
+  window.requestAnimationFrame(displayText);
+});
