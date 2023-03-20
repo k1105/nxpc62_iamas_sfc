@@ -72,7 +72,7 @@ b {
 #container {
   position: fixed;
   justify-content: space-between;
-  top: 7vh;
+  top: 7lvh;
   left: 20px;
   width: 100vw;
   mix-blend-mode: difference;
@@ -99,7 +99,7 @@ b {
 }
 
 .spacer-container {
-  height: 100vh;
+  height: 100lvh;
   position: relative;
   z-index: 99;
 }
@@ -150,25 +150,25 @@ b {
 }
 
 .performer-img {
-  width: 18vh;
+  width: 18lvh;
   margin-right: 10px;
 }
 
 .performer-individual {
   display: flex;
-  height: 18.75vh;
+  height: 18.75lvh;
 }
 
 .performer-individual::before {
   content: "";
   display: block;
-  height: 18.75vh;
+  height: 18.75lvh;
   order: 1;
 }
 .performer-individual::after {
   content: "";
   display: block;
-  height: 18.75vh;
+  height: 18.75lvh;
 }
 
 .map {
@@ -183,7 +183,7 @@ b {
   position: fixed;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 100lvh;
 }
 .video {
   position: absolute;
@@ -205,7 +205,7 @@ b {
 
   header {
     right: 5vw;
-    top: 30vh;
+    top: 30lvh;
   }
 
   h1 {
@@ -250,6 +250,6 @@ b {
   }
 
   .performer-img {
-    width: 15vh;
+    width: 15lvh;
   }
 }
