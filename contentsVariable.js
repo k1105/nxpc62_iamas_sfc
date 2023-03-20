@@ -28,7 +28,7 @@ const thirdHeadlineLists = [
 ];
 
 const secondContentsLists = [
-  `Mada Shishunki<br />Ryu Ishizuka<br />Yugo MINOMO<br />fussy x zumisio
+  `Mada Shishunki<br />Ryu Ishizuka<br />fussy x zumisio
     <br />
     yamamori no siozumi <br />Ryo Simon x Asuka Ishii`,
   " ",
